@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-bg{
+  background-image: url("./jetski2.jpg");
+  background-position: center;
+  min-height: 100gd;
+  background-repeat: no-repeat;
+}
+
+.title-bg{
+  background: RGBA(150,190,255,.8);
+  padding: 2vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  color: firebrick;
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url("./jetski1.jpg");
+  background-position: center;
+  max-height: 50gd;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
