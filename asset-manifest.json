@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jetskirental/static/css/main.82852a4e.css",
+    "main.js": "/jetskirental/static/js/main.b3c4b28b.js",
+    "static/media/jetski1.jpg": "/jetskirental/static/media/jetski1.e0e12d6a405ff53c09c4.jpg",
+    "static/media/jetski2.jpg": "/jetskirental/static/media/jetski2.eaa04fe1a0c2c67c0345.jpg",
+    "index.html": "/jetskirental/index.html",
+    "main.82852a4e.css.map": "/jetskirental/static/css/main.82852a4e.css.map",
+    "main.b3c4b28b.js.map": "/jetskirental/static/js/main.b3c4b28b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82852a4e.css",
+    "static/js/main.b3c4b28b.js"
+  ]
+}
