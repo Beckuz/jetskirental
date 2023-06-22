@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: lightblue;
-  height: 85px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   padding: 0.2rem calc((100vw - 1000px) / 2);
@@ -67,7 +67,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #808080;
+  background: RGBA(150,190,255);
   padding: 10px 22px;
   color: #000000;
   outline: none;
@@ -77,6 +77,9 @@ export const NavBtnLink = styled(Link)`
   text-decoration: none;
   /* Second Nav */
   margin-left: 24px;
+  &.active {
+  background: #ffff;
+  }
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

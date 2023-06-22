@@ -29,15 +29,15 @@ const Navbar = () => {
         <Bars id={"hamburger"} onClick={openNav} />
 		<NavMenu id={"nav"}>
 
-          <NavLink to='/' activeStyle>
+          <NavBtnLink to='/' activeStyle>
             Home
-          </NavLink>
-          <NavLink to='/Jetskis' activeStyle>
+          </NavBtnLink>
+          <NavBtnLink to='/Jetskis' activeStyle>
             Jet-skis
-          </NavLink>
-          <NavLink to='/Contact' activeStyle>
+          </NavBtnLink>
+          <NavBtnLink to='/Contact' activeStyle>
             Contact
-          </NavLink>
+          </NavBtnLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
