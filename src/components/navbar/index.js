@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <Bars id={"hamburger"} onClick={openNav} />
+          <Bars id={"hamburger"} onClick={openNav} />
 		<NavMenu id={"nav"}>
 
           <NavBtnLink to='/' activeStyle>

@@ -21,6 +21,7 @@ body{
   background-image: url("./jetski2.jpg");
   background-position: center;
   min-height: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -54,6 +55,7 @@ body{
   width:40vw;
   border-radius:10px;
   margin:1vw;
+  z-index:1;
 
 
 }

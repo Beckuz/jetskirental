@@ -4,13 +4,24 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: lightblue;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
-  z-index: 12;
-  /* Third Nav */
-  /* justify-content: flex-start; */
+  font-size: 18px;
+  width:15rem;
+  margin-left: auto;
+  right:0;
+  z-index:70;
+  height:0;
+  overflow:visible;
+  border: 1px solid rgba(0,0,0,0.2);
+  @media (min-width: 768px) {
+    display: flex;
+    margin: unset;
+    width:unset;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    z-index: 99;
+  }
 `;
 
 export const NavLink = styled(Link)`
@@ -29,27 +40,33 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
   display: none;
   color: #808080;
+  background-color:lightblue;
+  border-radius:4px;
+  z-index:99;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
+    margin: 5px;
+    right: .7rem;
+    font-size: 2.8rem;
     cursor: pointer;
   }
 `;
 
 export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
+  list-style-type: none;
+  background-color:lightblue;
+  display: none;
+  padding:18px;
+  padding-right:0;
+  flex-direction: column;
+  border-radius:4px;
+  z-index:98!important;
+  position:relative;
+  @media (min-width: 768px) {
+    padding:0px;
+    display: flex !important;
+    flex-direction: row;
   }
 `;
 
@@ -68,11 +85,12 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: RGBA(150,190,255);
-  padding: 10px 22px;
+  padding: 10px;
   color: #000000;
   outline: none;
   border: none;
   cursor: pointer;
+  min-width:60px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
@@ -85,4 +103,16 @@ export const NavBtnLink = styled(Link)`
     background: #fff;
     color: #808080;
   }
+  
+    @media (max-width: 768px) {
+    display: flex;
+    justify-content:right;
+    padding-right: 16px;
+    font-size: 1.5rem;
+    margin:5px;
+    margin-right: 4.5rem;
+    margin-top:5px;
+  }
 `;
+
+
