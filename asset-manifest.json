@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jetskirental/static/css/main.a4f59a35.css",
+    "main.css": "/jetskirental/static/css/main.1cacdb4f.css",
     "main.js": "/jetskirental/static/js/main.a9c0a093.js",
     "static/media/jetski1.jpg": "/jetskirental/static/media/jetski1.e0e12d6a405ff53c09c4.jpg",
     "static/media/jetski2.jpg": "/jetskirental/static/media/jetski2.eaa04fe1a0c2c67c0345.jpg",
     "index.html": "/jetskirental/index.html",
-    "main.a4f59a35.css.map": "/jetskirental/static/css/main.a4f59a35.css.map",
+    "main.1cacdb4f.css.map": "/jetskirental/static/css/main.1cacdb4f.css.map",
     "main.a9c0a093.js.map": "/jetskirental/static/js/main.a9c0a093.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f59a35.css",
+    "static/css/main.1cacdb4f.css",
     "static/js/main.a9c0a093.js"
   ]
 }
