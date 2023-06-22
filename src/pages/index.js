@@ -19,7 +19,43 @@ const index = () => {
         </div>
         <div style={{display: "flex", flexWrap:"wrap", justifyContent:"center"}}>
             <div className={"content-wrapper-double"}>
-                <p>*To Be Added* Picelist</p>
+                <div className={"pricelist"}>
+                    <h2>Price list</h2>
+                    <table>
+                       <tr>
+                           <td style={{width:"100vw"}}>
+                            2 hours
+                           </td>
+                           <td style={{width:"30%"}}>
+                            100€
+                           </td>
+                       </tr>
+                        <tr>
+                           <td>
+                            Whole day
+                           </td>
+                           <td>
+                            180€
+                           </td>
+                       </tr>
+                        <tr>
+                           <td>
+                            2 days
+                           </td>
+                           <td>
+                            350€
+                           </td>
+                       </tr>
+                        <tr>
+                           <td>
+                            Weekend (fri-sun)
+                           </td>
+                           <td>
+                            450€
+                           </td>
+                       </tr>
+                    </table>
+                </div>
             </div>
             <div className={"content-wrapper-double"}>
                 <p>*To Be Added* Loop of popular vehicles</p>

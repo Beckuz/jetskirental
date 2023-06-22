@@ -63,17 +63,27 @@ body{
 .content-wrapper-single{
   background: RGBA(150,190,255,.8);
   font-size: 2vmax;
-  padding: 3%;
+  padding: 2vw;
   align-self: center;
   display: flex;
   justify-content: center;
   min-width:300px;
-  width:calc(82vw + 3%);
+  width:86vw;
   border-radius:10px;
   margin:1vw;
 
+
 }
 
+table{
+  font-weight: bold;
+}
+
+  @media (max-width: 768px) {
+    .content-wrapper-single {
+      width: 80vw;
+    }
+  }
 .App-link {
   color: #61dafb;
 }
